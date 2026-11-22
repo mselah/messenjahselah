@@ -527,12 +527,14 @@ const LINKS = {
   coaching:  "mailto:centertrueself@gmail.com?subject=Coaching%20Session"   // Calendly / booking link
 };
 
-const TRACKS = [   // free:false = members only (locked)
-  { title:"Song Title One",   sub:"Single",             file:"music/song1.mp3", dur:"4:12", free:true },
-  { title:"Song Title Two",   sub:"Single",             file:"music/song2.mp3", dur:"3:58", free:true },
-  { title:"Song Title Three", sub:"Album",              file:"music/song3.mp3", dur:"4:30", free:true },
-  { title:"Song Title Four",  sub:"Album",              file:"music/song4.mp3", dur:"5:01", free:false },
-  { title:"Song Title Five",  sub:"Unreleased",         file:"music/song5.mp3", dur:"4:44", free:false },
+const TRACKS = [   // free:false = members only (locked). Locked songs have no audio file on the site.
+  { title:"Trust the Flow", sub:"Single", file:"music/01-trust-the-flow.mp3", dur:"5:00", free:true },
+  { title:"Life to Live",   sub:"Single", file:"music/02-life-to-live.m4a",   dur:"4:17", free:true },
+  { title:"Focus",          sub:"Single", file:"",                            dur:"3:43", free:false },
+  { title:"No Bad Vibes",   sub:"Single", file:"",                            dur:"4:49", free:false },
+  { title:"Today",          sub:"Single", file:"",                            dur:"4:01", free:false },
+  { title:"Let's Meditate", sub:"Single", file:"",                            dur:"4:12", free:false },
+  { title:"I AM LOVE",      sub:"Single", file:"music/07-i-am-love.mp3",      dur:"5:30", free:true },
 ];
 
 const MEDITATIONS = [
